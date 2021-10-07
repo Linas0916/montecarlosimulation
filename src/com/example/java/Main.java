@@ -47,7 +47,7 @@ public class Main {
         }
         double additionaltwonumbersprobability = getMonteCarlosimulationforadditionaltwonumbers(numTrials);
 
-        return (count*5*4*3*2*1)/result*additionaltwonumbersprobability;
+        return count/result*additionaltwonumbersprobability;
 
     }
     public static double getMonteCarlosimulationforadditionaltwonumbers(int numTrials){
